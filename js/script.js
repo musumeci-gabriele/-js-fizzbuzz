@@ -11,15 +11,15 @@ var buzz = "Buzz";
 var numero = 1;
 
 while (numero <= 100) {
-  if ((numero / 3 == parseInt(numero / 3)) && (numero / 5 == parseInt(numero / 5))) {
+  if ((numero % 3 == 0) && (numero % 5 == 0)) {
     document.getElementById("lista-numeri").innerHTML += "<li>" + fizz + buzz + "<li>";
     console.log(fizz + buzz);
   }
-  else if (numero / 5 == parseInt(numero / 5)) {
+  else if (numero % 5 == 0) {
     document.getElementById("lista-numeri").innerHTML += "<li>" + buzz + "<li>";
     console.log(buzz);
   }
-  else if (numero / 3 == parseInt(numero / 3)) {
+  else if (numero % 3 == 0) {
   document.getElementById("lista-numeri").innerHTML += "<li>" + fizz + "<li>";
   console.log(fizz);
   }
