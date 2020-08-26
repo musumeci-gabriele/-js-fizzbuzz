@@ -3,10 +3,11 @@
 // ma per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi Buzz.
 // Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
-
+// VARIABILI FIZZ E BUZZ
 var fizz = "Fizz";
 var buzz = "Buzz";
 
+// CONTATORE
 var numero = 1;
 
 while (numero <= 100) {

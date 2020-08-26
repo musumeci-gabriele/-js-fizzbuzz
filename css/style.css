@@ -19,12 +19,3 @@ body{
   margin: 15px;
   font-weight: bold;
 }
-
-.green-fizz{
-  color: green;
-  background-color: inherit;
-}
-.red-buzz{
-  color: red;
-  background-color: inherit;
-}
